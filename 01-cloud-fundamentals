@@ -1,2 +1,34 @@
 Here is a complete understanding of myself learning Cloud fundamental, practicing cloud topics.
+Cloud Computing:
+It is basically an accesss to our own server from the cloud provider like AWS, Azure, Google Cloud with also the access to Storage, software, Database, over internet etc without actually buying the hardware physically but present in data center of these cloud provider.
+AWS Management Console:
+AWS Management Console is the website interface where you control and manage your AWS cloud resources(EC2,S3,RDS,etc).
+___The easiest and advanced way to control it is coding(CLI) , programming(AWS API(s)) or AWS SDK.
+AWS Account
+    ↓
+AWS Management Console
+    ↓
+AWS Resources(Cloud)
+AWS Resources:
 
+EC2:(Elastic Compute Cloud)
+EC2 is an AWS service that gives you computing power(storage, databases, etc) in the form of virtual servers.
+
+S3:(Simple Storage Service)
+S3 is AWS's service for storing files and objects in the cloud. Its function is same as of SSD.
+
+RDS:(Relational Database Service)
+RDS is an AWS service that provides managed relational databases.
+
+VPC:(Virtual Private Cloud)
+
+IAM:(Identity & Management Access)
+A VPC is a logically isolated virtual network that you create in AWS for your cloud resources. It provides the networking environment that allows resources to communicate with each other and, when configured, with external networks such as the internet.
+Deeper concepts such as IP addressing, subnets, routing, ports, DNS, firewalls, and NAT will be covered in the Networking section. 
+Practice after networking: <<<<Build a network, secure it , attack it.>>>>
+
+CloudWatch:
+CloudWatch monitors what is happening with your AWS resources.
+
+CloudTrail:
+CloudTrail records actions performed in your AWS account.
